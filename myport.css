@@ -1,0 +1,48 @@
+body{background:white;width:100%;}
+header {
+    background: thistle; padding: 20px 0 0 50px; width: 100%; text-align: center;
+    margin: 0 0 0 0;word-spacing: normal;font-weight: 600;
+}
+header nav ul li{
+    display: inline-block; word-spacing: normal;padding: 0 20px 10px 10px; border-radius: none;
+}
+header nav ul li:hover{
+    color: green;background-color: yellow;
+}
+header nav ul li:active{
+    background-color: white;
+}
+section{
+    list-style: none;
+}
+a:active{
+    color: white;background-color: green;
+}
+img{
+    max-width: 100%;
+}
+h3{
+    margin: 0 0 1em 0;
+}
+#gallery{
+    margin: 0; padding: 0;list-style: none;display: inline-block;
+}
+#gallery li{
+    float: left; width: 30%; margin: 1.6%;
+}
+#gallery li a p{
+    display: inline-block;
+}
+footer{
+    width:100%;margin:10px 10px 10px 10px;Background-color: black; color: white; font-size: 15px; text-align:center;
+}
+.social-icon{
+    width:20px; height: 20px;margin: 5px 0 0; padding: 5px 10px 5px 5px;
+}
+footer p{
+    color: aqua;margin: 0 10px 0 5px;
+}
+/* Page About */
+.profile-photo{
+    display: block; max-width: 150px;margin: 0 auto 30px;border-radius: 30%;
+}
